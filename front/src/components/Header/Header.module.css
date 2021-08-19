@@ -1,0 +1,10 @@
+.head{
+    display: flex;
+    height: 80px;
+    background-color: #FFF1D6;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 1.5em;
+    color: orange;
+    margin-bottom: 10px;
+}

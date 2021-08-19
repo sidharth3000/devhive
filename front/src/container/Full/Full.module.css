@@ -1,0 +1,148 @@
+.post{
+    text-align: center;
+    margin: 10px 20px 50px 50px;
+    /* margin-left: 50px; */
+    display: inline;
+    width: 85%;
+}
+
+.cont{
+    display: flex;
+}
+
+.user_img{
+    height: 50px;
+    border: 2px solid orange;
+    border-radius: 5px;
+
+}
+
+.name{
+    color: rgb(139, 139, 139);
+
+}
+
+.date{
+    font-size: 10px;
+    color: rgb(201, 201, 201);
+    margin-bottom: 10px;
+}
+
+.title{
+    margin: 0px 5px;
+    margin-right: auto;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.body{
+    padding: 10px 40px;
+    color: rgb(155, 155, 155);
+}
+
+.post_img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.number{
+    font-size: 30px;
+    display: inline;
+    color: orange;
+}
+
+.like{
+ display: inline;
+ color: orange;
+ font-size: 20px;
+ margin: 5px 15px;
+ padding: 5px;
+ cursor: pointer;
+ border-radius: 100px;
+ transition: all 0.3s;
+}
+
+.like:hover{
+    color: white;
+    background-color: orange;
+}
+
+.write_cmmnt{
+    border: 2px solid orange;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 70%;
+    border-radius: 20px;
+    color: rgb(116, 116, 116);
+    margin: 10px;
+}
+
+.send{
+    background-color: orange;
+    color: white;
+    width: max-content;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.send:hover {
+    
+}
+
+.cmmnts{
+    display: inline;
+    width: 70%;
+    
+}
+
+.cmmnts_head{
+    width: max-content;
+    margin: auto;
+    padding: 2px;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+}
+
+.cmmnts_body{
+    border: 1px solid orange;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    height: 500px;
+    overflow: auto;
+}
+
+.cmmnt{
+    margin: 15px 0px;
+    width: 90%;
+}
+
+.cmmnt_body{
+    background-color: #FFF1D6;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: orange;
+}
+
+.cmmnt_name{
+    display: inline;
+    font-size: 15px;
+    padding: 0px 20px;
+    color: rgb(151, 151, 151);
+}
+
+.cmmnt_time{
+    display: inline;
+    font-size: 10px;
+    color: rgb(223, 223, 223);
+}
+
+

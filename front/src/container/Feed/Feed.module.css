@@ -1,0 +1,17 @@
+.posts{
+    margin: 50px 80px;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.my_posts{
+    margin: 20px;
+    background-color: orange;
+    width: max-content;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    color: white;
+    
+}

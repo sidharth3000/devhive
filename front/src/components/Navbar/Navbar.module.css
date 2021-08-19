@@ -1,0 +1,112 @@
+.navbar{
+    position: sticky;
+    top:0;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: all 0.4s;
+}
+
+.scrolled{
+    position: sticky;
+    top:0;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid orange;
+    padding: 0px;
+    background-color: #fff1d6f3 ;
+    transition: all 0.4s;
+}
+
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.main_nav a,
+.main_nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.main_nav a:hover,
+.main_nav a:active,
+.main_nav a.active {
+    color: orange;
+}
+
+.link{
+    font-size: 1.3em;
+    padding: 0px 20px;
+    display: inline;
+    transition: all 0.4s;
+}
+
+.logoo{
+    padding-right: 0px;
+}
+
+.push{
+    margin-left: auto;
+    font-size: 2em;
+}
+
+.main_nav{
+    display: flex;
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    padding-right: 0px;
+}
+
+.name{
+    margin-right: 2em;
+    font-size: 2em;
+}
+
+.img{
+    width: 30px; /* width of container */
+    height: 30px; /* height of container */
+    object-fit: cover;
+    background-color:#FFF1D6 ;
+    border-radius: 100px;
+    border: 1px solid orange;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+  }
+ 
+  .drop{
+      font-size: 15px;
+      background-color: #FFF1D6;
+      padding: 5px;
+      margin: 10px;
+      opacity: 0;
+      cursor: pointer;
+      transition: all 0.3s;
+      border-radius: 2px;
+      padding: 10px;
+      color: orange; 
+  }
+
+  /* .drop:hover{
+    background-color: orange;
+    color: red;
+  } */
+
+  .dropdown:hover .drop {
+    opacity: 100;
+  }
+
+  .auth{
+      font-size: 15px;
+  }

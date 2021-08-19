@@ -1,0 +1,28 @@
+.footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    font-size: 1.2em;
+    background-color: #FFF1D6;
+}
+
+.handles{
+    align-self: center;
+    justify-self: center;
+    padding: 50px 0px;
+    color: rgb(53, 53, 53);
+}
+
+.credit{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
+
+.footer_main i:hover{
+    color: orange;
+    cursor: pointer;
+}
